@@ -1,0 +1,105 @@
+/* .App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
+ *{
+  margin: 0;
+  padding: 0;
+  background-color: black;
+ }
+/* .nav{
+  float: right;
+  display: flex;
+} */
+.nav p{
+  margin-right: 5px;
+  color: white;
+}
+.nav :link{
+  text-decoration: none;
+  font-size: 22px;
+  margin: 9px 3px 0px 0px;
+  padding: 0;
+  /* transition: 300ms ease-in, 300ms ease-out; */
+}
+.nav :link :hover{
+  transform: scale(1.1);
+  font-size: larger;
+  transition: 200ms ease-in;
+  padding-bottom: 5px;
+  margin-right: 10px;
+  margin-left: 0px;
+  padding-left: 0;
+}
+.nav :link :hover ::after{
+  transition: 300ms ease-out;
+}
+.head{
+  /* margin-left: 13px;
+  margin-top: 13px; */
+  margin: 13px 13px 13px;
+  display: inline-block;
+  width: 98%;
+}
+.head h1{
+  float: left;
+  color: white;
+}
+.head nav{
+  display: inline-flex;
+  float: right;
+}
+.text{
+  color: white;
+  display: block;
+  /* margin-top: 100px; */
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+  margin: 15px;
+  text-align: justify;
+}
+@media screen and (max-width: 831px) {
+  /* .nav :link{
+    font-size: 15px;
+  } */
+   .head h1{
+    font-size: smaller;
+   }
+   .head nav{
+    font-size: smaller;
+   }
+}
